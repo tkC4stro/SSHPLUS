@@ -5,4 +5,4 @@ apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/tkC4st
 
 #Acessa Root
 
-wget https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/senharoot.sh && sudo chmod 777 senharoot.sh && ./senharoot.sh
+wget https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/senharoot.sh && sudo chmod 777 senharoot.sh && sudo ./senharoot.sh
