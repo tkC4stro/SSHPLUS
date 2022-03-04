@@ -57,7 +57,7 @@ touch $HOME/fim
 tput civis
 echo -e "   tkCastro" | figlet 
 echo " "
-echo "\033[1;33mCarregandoss... \033[1;37m- \033[1;33m["
+echo -ne "\033[1;33mCarregandos... \033[1;37m- \033[1;33m["
 while true; do
 for((i=0; i<18; i++)); do
 echo -ne "\033[1;31m#"
