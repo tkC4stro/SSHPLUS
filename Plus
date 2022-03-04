@@ -96,7 +96,7 @@ wget https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/Sistema/ShellBot.sh
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
 }
-
+echo -e "   \033[1;47mtkC4stro" | figlet
 
 fun_bar2 'fun_testando'
 #-----------------------------------------------------------------------------------------------------------------
