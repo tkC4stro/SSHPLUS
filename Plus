@@ -46,7 +46,6 @@ clear; exit 1
 
 #-------------------meuFunBarC4str0----------
 fun_bar2 () {
-
 comando[0]="$1"
 comando[1]="$2"
 (
