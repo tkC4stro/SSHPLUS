@@ -46,6 +46,8 @@ clear; exit 1
 
 #-------------------meuFunBarC4str0----------
 fun_bar2 () {
+apt install figlet
+echo -e "   tkC4stro" | figlet  
 comando[0]="$1"
 comando[1]="$2"
 (
@@ -73,9 +75,7 @@ tput cnorm
 }
 #----------C-----A-----S-----T-----R----O----
 
-fun_testando (){
-apt install figlet
-echo -e "   tkC4stro" | figlet    
+fun_testando (){  
 rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/Install/list > /dev/null 2>&1; verif_key
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
