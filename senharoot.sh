@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
 
+sudo -i
+
 [[ $(grep -c "prohibit-password" /etc/ssh/sshd_config) != '0' ]] && {
 	sed -i "s/prohibit-password/yes/g" /etc/ssh/sshd_config
 } > /dev/null
