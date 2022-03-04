@@ -55,9 +55,7 @@ ${comando[1]} -y > /dev/null 2>&1
 touch $HOME/fim
 ) > /dev/null 2>&1 &
 tput civis
-echo -e "   SSHPlus" | figlet 
-echo " "
-echo -ne "\033[1;33mCarregandos... \033[1;37m- \033[1;33m["
+echo -ne "  \033[1;33mAGUARDE, PREPARANDO ARQUIVOS PARA INSTALAÇÃO... \033[1;37m- \033[1;33m["
 while true; do
 for((i=0; i<18; i++)); do
 echo -ne "\033[1;31m#"
@@ -97,6 +95,8 @@ wget https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/Sistema/ShellBot.sh
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
 }
+echo -e "   SSHPlus" | figlet
+
 fun_bar2 'fun_testando'
 #-----------------------------------------------------------------------------------------------------------------
 echo -e "\n\033[1;32mINICIANDO INSTALAÇÃO!\033[1;32m"
