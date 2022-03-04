@@ -42,6 +42,8 @@ sleep 2
 clear; exit 1
 }
 }
+
+fun_testando (){
 rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/Install/list > /dev/null 2>&1; verif_key
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
@@ -62,6 +64,8 @@ cd $HOME/BOT
 wget https://raw.githubusercontent.com/tkC4stro/SSHPLUS/main/Sistema/ShellBot.sh >/dev/null 2>&1
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
+}
+fun_bar 'fun_testando'
 #-----------------------------------------------------------------------------------------------------------------
 echo -e "\n\033[1;32mINICIANDO INSTALAÇÃO!\033[1;32m"
 sleep 3s
